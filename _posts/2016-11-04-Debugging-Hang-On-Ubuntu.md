@@ -1,5 +1,3 @@
-# Debugging hang on Ubuntu
-
 In this post I will talk about a hang that we started noticing after enabling JIT for [node-chakracore](https://github.com/nodejs/node-chakracore) in Ubuntu. Before debugging for this hang, I had never worked on Ubuntu (forget about debugging) and the only knowledge I had was from what I learnt in `Unix programming` back in school. Here I will share my experience in debugging a bug on a new platform, how I approached this bug, what things I read to understand what is going on and finally how I solved it. During investigation I read about concepts that were later found to be unnecessary, however reading about it had added those concepts in my knowledge base which will definitely prove to be beneficial in future.
 
 ### Problem
